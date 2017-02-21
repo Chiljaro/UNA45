@@ -1,0 +1,266 @@
+extends templates/template
+
+block banner
+	.ed-container.main-about-clients.main-banner
+		.ed-item.clients-container
+			a(name="nosotros")
+			img(src="img/Link_HOME.jpg", alt="").main-clients__img.fondo
+		.main-clients
+				.ed-item.s-100.l-100.main-clients__icon
+					.iconoreloj
+						img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
+				.ed-item.s-100.l-100.main-clients__title
+					p.titulo nosotros
+				.ed-item.s-100.l-100.main-clients__content
+					span Somos un equipo creativo, la agencia que diseña <br/> 
+					span.fuerte  soluciones estratégicas 
+					span para hacer tu marca más valiosa.
+
+block valores
+	.ed-container.main-valores
+		.ed-item.s-100.l-50.mision
+			.mision-contenido
+				.mision__titulo 
+					p misión
+				.mision__content 
+					span.fuerte Diseñar soluciones estratégicas, creativas y puntuales, <br/>
+					span para aumentar el valor de las marcas y del equipo que se <br/>
+					span encuentra detrás de ellas.
+		.ed-item.s-100.l-50.vision
+			.vision-contenido
+				.vision__titulo 
+					p visión
+				.vision__content Demostraremos con nuestras ideas <br/>
+					span.fuerte que el trabajo en equipo, abierto y puntual <br/>
+					span genera crecimiento y bienestar para todos.
+		.ed-item.s-100.l-100.valor
+			.ed-item.l-100
+				.valor-contenido
+					.valor__titulo 
+						p valores
+					.valor__content 
+						span.fuerte Cumplir, innovar y servir con honestidad
+				.logo3
+					img(src="img/Logo_UNA45_300x100.png", alt="")
+		.ed-container.tresvalores
+			.ed-item.l-1-3.desc
+				.desc__titulo 
+					p cumplir :
+				.desc__content Con nuestros compromisos, <br/> 
+					| con las 
+					span.fuerte expectativas 
+					| de nuestros clientes <br/> y con los 
+					span.fuerte sueños 
+					| de nuestro equipo.
+			.ed-item.l-1-3.desc
+				.desc__titulo 
+					p innovar :
+				.desc__content 
+					span Con nuestras 
+					span.fuerte ideas 
+					| y en la forma <br/> en que trabajamos para alcanzarlas.
+
+			.ed-item.l-1-3.desc
+				.desc__titulo 
+					p servir :
+				.desc__content 
+					span A los
+					span.fuerte  objetivos 
+					| de nuestros clientes <br/> y a los de nuestro equipo de trabajo.
+block logo-services
+	.ed-container.main-logo-services
+		.ed-item.logo2
+			img(src="img/Logo_UNA45_451x150.png", alt="").main-logo-services__img
+block services
+	.ed-container.main-services
+		.ed-item.s-100.l-50.servicio
+			p.titulo.que ¿qué hacemos?
+				.contenido-service.ed-item
+					.icono1
+						img(src="img/Icon_Creativo_100x100.png", alt="").iconov
+					.texto
+						.degra: img(src="img/TextCreativo_190x50.png", alt="").creativo.textodegra
+						p.contenido Campañas inolvidables 
+				.contenido-service.ed-item
+					.icono2
+						img(src="img/Icon_Medico_100x100.png", alt="").iconov
+					.texto
+						.degra.medico: img(src="img/TextMedico_350x50.png", alt="").medico.textodegra
+						p.contenido Respaldo científico que convence
+				.contenido-service.ed-item
+					.icono3
+						img(src="img/Icon_Design_100x100.png", alt="").iconov
+					.texto
+						.degra: img(src="img/TextDiseno_150x50.png", alt="").diseno.textodegra
+						p.contenido Materiales pensados para ser funcionales
+		.ed-item.s-100.l-50.servicio
+			p.titulo.como ¿cómo lo hacemos?
+				.contenido-service2.ed-item
+					.texto2.unomas
+						p.tema Planeación estratégica
+							p.contenido.minid que asegura el exito
+						p.tema.ultimo Calidad de servicio
+							p.contenido.minid que asegura tu tranquilidad 
+					.iconof
+						img(src="img/flecha.png", alt="").flecha
+					.texto2.dosmas
+						p.tema2 Enfoque con inovación
+							p.contenido.minii que asegura la vanguardia
+						p.tema2.ultimo.ultimo1 Confianza científica
+							p.contenido.minii que asegura la credibilidad
+			.conclusion 
+				.eficaz 
+					img(src="img/TextEficacia_350x85.png", alt="").efi
+					img(src="img/Icon_Check_60x60.png", alt="").check
+
+		.ed-item.s-100.l-100.servicio.pie
+			.inferior
+				p.intro Así como: <br/>
+				span Diseño web • Video 3D • Producción y posproducción
+block about-team
+	.ed-container.main-about-team
+		.ed-item.team-container
+			a(name="nuestro_equipo")
+			img(src="img/Link_Equipo.jpg", alt="").main-team__img.fondo
+		.main-team
+			.ed-item.s-100.l-100.main-team__icon
+				.iconoreloj
+					img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
+			.ed-item.s-100.l-100.main-team__title
+				p.titulo nuestro equipo
+			.ed-item.s-100.l-100.main-team__content
+				span Nos conformamos por un grupo de 
+				span.fuerte jóvenes profesionales
+				span  cuyo trabajo en equipo y experiencia <br/> 
+				span  son una fórmula probada para ofrecer soluciones creativas, <br/> 
+				span pues
+				span.fuerte  somos apasionados de lo que hacemos y la forma en que lo hacemos.
+
+block about-us
+	.ed-container.main-about-us
+		.slideshow-container
+			.s-100.l-100.mySlides.fade
+				.us-container
+					p.title nuestro equipo
+					.ed-container
+						.ed-item.s-50.l-50.foto
+							.fotos
+								img(src="img/Val_UNA45.png", alt="").main-us__img.fotito
+							.textos
+								p.fuerte.lic Licenciada en Mercadotecnia Internacional
+								p.chico Egresada de la Universidad La Salle del Pedregal
+							
+						.ed-item.s-50.l-50.frases
+							.frase
+								p "No hay mejor momento <br/>
+								p que el presente y <br/>
+								p no hay mejor presente <br/>
+								p que el tiempo..."
+							.nombre
+								p.firma Valeri Valenzuela
+								p.puesto Dirección General
+				.ed-item.s-100.l-100.us-container.logo4
+					img(src="img/Logo_UNA45_200x70.png", alt="")
+
+			.s-100.l-100.mySlides.fade
+				.us-container
+					p.title nuestro equipo
+					.ed-container
+						.ed-item.s-50.l-50.foto
+							.fotos
+								img(src="img/Mark_UNA45.png", alt="").main-us__img.fotito
+							.textos
+								p.fuerte.lic Licenciado en Diseño Gráfico
+								p.chico Egresado de la Universidad Nacional Autónoma de México
+							
+						.ed-item.s-50.l-50.frases
+							.frase
+								p "Un hombre debe vivir el presente  <br/>
+								p y ¿qué importa quién eras <br/>
+								p la semana pasada, si sabes <br/>
+								p quién eres hoy?..”
+								p.cita Paul Auster
+							.nombre
+								p.firma Marco A. Romero
+								p.puesto Dirección Artística y Creativa
+				.ed-item.s-100.l-100.us-container.logo4
+					img(src="img/Logo_UNA45_200x70.png", alt="")
+			a(class="prev", onclick="plusSlides(-1)") &#10094;
+			a(class="next" onclick="plusSlides(1)") &#10095;
+
+		.ed-item.centrado
+			span.dot(onclick="currentSlide(1)") 
+			span.dot(onclick="currentSlide(2)") 
+
+
+block our-clients
+	.ed-container.main-about-clients
+		.ed-item.clients-container
+			a(name="nuestros_clientes")
+			img(src="img/Link_Clientes.jpg", alt="").main-clients__img.fondo
+		.main-clients
+			.ed-item.s-100.l-100.main-clients__icon
+				.iconoreloj
+					img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
+			.ed-item.s-100.l-100.main-clients__title
+				p.titulo nuestros clientes
+			.ed-item.s-100.l-100.main-clients__content
+				span La parte más importante para nosotros, pues ellos
+				span.fuerte  nos otorgan su confianza <br/> 
+				span  y son nuestros cómplices y amigos en la aventura publicitaria de una marca.
+
+block marketing
+	.ed-container.main-marketing
+		.ed-item.marketing-container
+			p.duda ¿quiénes conocen nuestra labor?
+			.contenttext
+				p.texto Nuestro equipo ha trabajado con algunas de las marcas más importantes <br/>
+				p.last de la industria farmacéutica en México, tales como:
+	.ed-container.main-marketing
+		.ed-item.marketing-container
+			.gallery
+				.image: img(src="img/laboratorios/Labs_Abbott.png", alt="")
+				.image: img(src="img/laboratorios/Labs_AMGEN.png", alt="")
+				.image: img(src="img/laboratorios/Labs_AstraZeneca.png", alt="")
+				.image: img(src="img/laboratorios/Labs_BD.png", alt="")
+				.image: img(src="img/laboratorios/Labs_Janssen.png", alt="")
+				.image: img(src="img/laboratorios/Labs_Roche.png", alt="")
+				.image: img(src="img/laboratorios/Labs_MERZ.png", alt="")
+				.image: img(src="img/laboratorios/Labs_Boehringer.png", alt="")
+				.image: img(src="img/laboratorios/Labs_PierreFabre.png", alt="")
+				.image: img(src="img/laboratorios/Labs_UCB.png", alt="")
+				.image: img(src="img/laboratorios/Labs_TEVA.png", alt="")
+				.image: img(src="img/laboratorios/Labs_Novartis.png", alt="")
+	.ed-container.main-marketing
+		.ed-item.marketing-container.logo4
+			img(src="img/Logo_UNA45_200x70.png", alt="")
+block contact
+	.ed-container.main-contact
+		a(name="contacto")
+		.ed-item.contact-container
+			p.title1 contacto
+			.contenttext
+				p.fuerte.linea El tiempo es muy importante para nosotros. <br/>
+				p.linea1 Te invitamos a ponerte en contacto y así poder construir juntos <br/>
+				p.linea2 la mejor experiencia creativa para tu marca.
+	.ed-container.info-contact
+		.ed-item.image.s-50.l-50
+			.logo5
+				img(src="img/Logo_UNA45_300x100.png", alt="")
+		.ed-item.image.s-50.l-50
+			.logo6
+				img(src="img/TextNombre_295x50.png", alt="")
+			p.correo.texto: a(href="mailto:valeri@una45.mx") valeri@una45.mx
+			p.telefono.texto 55.7845.6149
+	.ed-container.info-contact-redes
+		.ed-item.final.s-100.l-25
+			span Síguenos en nuestras redes sociales:
+		.ed-item.final.s-50.l-25
+			a(href="https://www.facebook.com/UNA45-1200782933370620/").second-menu__link: img(src="img/Social_Facebook_100x100.png", width=30 height=30, alt="").social
+			spna.fuerte   /UNA:45
+		.ed-item.final.s-50.l-25
+			a(href="https://twitter.com/una45_mx").second-menu__link: img(src="img/Social_Twitter_100x100.png", width=30 height=30, alt="").social
+			span.fuerte   @UNA45_MX 
+		.ed-item.final.s-100.l-25
+			a(href="http://www.una45.mx/").second-menu__link: img(src="img/Web_UNA45_300x100.png", width=120 height=120, alt="").social
+

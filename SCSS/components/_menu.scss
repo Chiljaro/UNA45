@@ -1,0 +1,98 @@
+.logo{
+	display: flex;
+	align-items: center;
+    justify-content: flex-start;
+    background: #FFF;
+
+    @include from(m){
+		justify-content: center; 
+    }
+
+}
+
+
+.main-menu, 
+.second-menu{
+
+	.main-menu__item, .second-menu__item{
+		text-transform: uppercase;
+		font-family: 'Nunito Sans', sans-serif;
+	}
+
+	.main-menu__link{
+		color: (#4C4C4C);
+		font-size: 11pt;
+    	margin: 5px 0px;
+    	border-right: 3px solid #4C4C4C;
+		
+		&.active,
+		&:hover {
+			background: rgba(#000, .1);
+		}
+
+	}
+
+	.second-menu__link {
+		color: (#4C4C4C);
+		font-size: 11pt;
+    	margin: 5px 0px;
+	}
+
+	.main-menu__item {
+		.last{
+			border: none;
+		}
+	}
+}
+
+
+.main-menu, 
+.second-menu{
+	@include edMenu(l);
+}
+
+.main-nav,
+.second-menu{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+
+	@include edNav('right', l);
+	
+
+}
+
+.nav-toggle{
+	@include navToggle(20px, $color1);
+	@include hideFrom(l);
+}
+
+.imagen{
+	padding-right: 1px;
+	padding-left: 0;
+	 	
+}
+
+.barra{
+	@include to(m){
+		padding-left: 1px;
+		padding-right: 2px;
+	} 
+}
+
+.barra2{
+	padding-left: 2px;
+	margin: 0;
+	padding-right: 0; 
+}
+
+.social{
+	vertical-align: middle;
+}
+
+.menuarriba{
+	left: 0;
+}
+
+.second-menu__link{
+	text-transform: capitalize;
+}

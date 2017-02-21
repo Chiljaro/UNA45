@@ -1,0 +1,53 @@
+.banner-container{
+	padding: 0;
+	position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-banner-container{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #fff;
+
+
+	&__icon{
+		color: #fff;
+		text-align: center;
+		font-size: 5em;
+	}
+
+	&__title{
+		color: #fff;
+		text-align: center;
+
+	}
+
+	&__content{
+		color: #fff;
+		text-align: center;
+	} 
+
+}
+
+
+
+.titulo{
+	display: inline-block;
+    font-size: 15pt;
+    padding: 10px 55px;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+
+    @include to(l){
+		font-size: 10pt;
+    	padding: 0;
+    }
+}
+
+.main-banner{
+	height: 100%;
+}

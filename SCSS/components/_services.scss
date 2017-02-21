@@ -1,0 +1,243 @@
+.main-logo-services{
+	
+	.logo2{
+		text-align: center;
+		margin-top : 5%;
+		margin-bottom: 1%;
+	}
+}
+
+.servicio{
+	
+	.titulo{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 18pt;
+		width: 100%;
+	}
+
+}
+
+.que{
+		color: $color2;
+
+	}
+
+.como{
+	color: $color1;
+}
+
+.servicio{
+	
+	.contenido{
+		margin-top: 0px;
+		color: #4C4C4C;
+	}
+
+	.subtitulo{
+		margin-bottom: 2px;
+		text-transform: uppercase;
+		background: linear-gradient($color1,$color2);
+		-webkit-background-clip: text;
+		color: transparent; 
+ 	}
+}
+
+
+.contenido-service{
+	display: flex;
+	align-items: center;
+	padding-left: 10%;
+	margin-bottom: 25px;
+
+	.texto{
+		border-left: 3px solid $color1;
+		margin-left: 6%;
+    	padding-left: 6%;
+	}
+}
+
+.contenido-service2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0%;
+
+	.texto{
+		border-left: 3px solid $color1;
+		margin-left: 6%;
+    	padding-left: 6%;
+    	//width: 100%;
+	}
+}
+
+.texto2{
+	position: relative;
+	top: -25px;
+}
+
+
+.tema,
+.tema2{
+	color: #4C4C4C;
+	margin-bottom: 0px;
+	font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13pt;
+}
+
+.tema{
+	text-align: right;
+}
+
+.tema2{
+	text-align: left;
+}
+
+.ultimo{
+	margin-top: 50px;
+}
+.minid{
+	margin: 0;
+	text-align: right;
+	font-size: 10pt;
+	margin-bottom: 5%;
+
+}
+
+.minii{
+	margin: 0;
+	margin: 0;
+	text-align: left;
+	font-size: 10pt;
+	margin-bottom: 5%;
+}
+
+.conclusion{
+	text-align: center;
+
+	.eficaz{
+	    display: inline-block;
+	    border: 2px solid $color2;
+	    padding: 20px 0;
+	    position: relative;
+
+		@include to(l){
+			width: 80%;
+			position: relative;
+			left: 50%;
+			-ms-transform: translate(-60%);
+			-webkit-transform: translate(-60%);
+			transform: translate(-60%);
+		}
+
+	   
+	    .efi{
+	    	width: 50%;
+	    	display: inline-block;
+	    }
+
+	    .check{
+	    	position: absolute;
+		    top: 10%;
+		    right: -10%;
+	    }
+
+   	}
+
+	p{
+		margin: 0;
+	}
+}
+
+
+.iconov{
+	width: 100px;
+	height: 100px;
+	max-width: none;
+	max-height: none;  
+}
+
+.flecha{
+	height: 100%;
+}
+
+.texto2{
+
+	.tema, 
+	.tema2,
+	.minid,
+	.minii{
+		@include to(l){
+			text-align: center;
+		}
+	}
+
+	.ultimo1{
+		@include to(l){
+			margin-top: 30px;
+		}
+
+	}
+}
+
+.degra{
+	width: 50%;
+
+	@include to(l){
+
+		width: 80%;
+	}
+}
+
+.medico{
+	
+	@include to(l){
+		width: 100%;
+	}
+}
+
+.diseno{
+	   width: 52%;
+
+	   @include to(l){
+
+		width: 80%;
+	}
+}
+
+.pie{
+
+	.inferior{
+		
+		margin-left: 220px;
+		margin-bottom: 20px;
+
+		@include to(m){
+			margin-left: 0px;
+			margin-bottom: 20px;
+			margin-top: 20px;	
+			text-align: center;
+		}
+		
+		.intro{
+			margin: 0;
+
+		}
+	}
+}
+
+.unomas{
+	margin-right: 10px; 
+}
+
+.dosmas{
+	margin-left: 10px; 
+}
+
+.iconof{
+
+	@include to(l){
+		width: 30%;
+	}
+}

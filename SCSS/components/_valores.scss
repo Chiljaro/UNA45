@@ -1,0 +1,153 @@
+.mision{
+	background-color: $color1;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+	color: #fff;
+	border-right: 5px solid #fff;
+
+	@include to(l){
+		border: none;
+	}
+
+	&__titulo{
+		color: white;
+		text-transform: uppercase;
+		text-align: center; 
+
+		p {
+			display: inline-block;
+			border: 1px solid #fff;
+			padding: 10px 45px;
+			margin: 50px 25px 25px 25px;
+			font-size: 14pt;
+			letter-spacing: 1.5px;
+		}
+	}
+
+
+	&__content{
+		text-align: center;
+		margin-bottom: 70px;
+	}
+}
+
+.vision{
+	background: $color2;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+	color: #fff;
+	border-left: 5px solid #fff;
+	
+	@include to(l){
+		border: none;
+	}
+
+	&__titulo{
+		color: white;
+		text-transform: uppercase;
+		text-align: center;
+
+		p {
+			display: inline-block;
+			border: 1px solid #fff;
+			padding: 10px 45px;
+			margin: 50px 25px 25px 25px;
+			font-size: 14pt;
+			letter-spacing: 1.5px;
+		}
+	}
+
+	&__content{
+		text-align: center;
+		margin-bottom: 70px;
+	}
+}
+
+.valor{
+	background: $color3;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+	color: #fff;
+	border-top: 10px solid #fff;
+	position: relative;
+
+
+	@include to(l){
+		border: none;
+	}
+
+	&__titulo{
+		color: white;
+		text-transform: uppercase;
+		text-align: center;
+
+		p {
+			display: inline-block;
+			border: 1px solid #fff;
+			padding: 10px 45px;
+			margin: 70px 25px 25px 25px;
+			font-size: 14pt;
+			letter-spacing: 1.5px;
+
+			@include to(l){
+				margin-top: 50px;
+			}
+		}
+	}
+
+	&__content{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+}
+
+
+.tresvalores{
+	background: $color3;
+	font-family: 'Nunito Sans', sans-serif;
+
+	.desc{
+		display: inline-block;
+		text-align: center;
+		margin-top: 0px;
+
+	}
+
+	.desc__titulo{
+		color: $color2;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.2em;
+		border-bottom: 1px solid #fff;
+		margin-bottom: 15px;
+
+		p{
+			margin-bottom: 10px;
+		}
+	}
+
+	.desc__content{
+		color: #fff;
+		margin-bottom: 30px;
+	} 
+}
+
+.logo3{
+	position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    -ms-transform: translate(-50%, 30%); /* IE 9 */
+    -webkit-transform: translate(-50%, 30%); /* Safari */
+    background: #fff;
+
+    @include to(l){
+    	display: none;
+    }
+}

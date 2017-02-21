@@ -1,0 +1,61 @@
+.main-about-clients{
+	position: relative;
+	/*display: flex;
+	display: -ms-flexbox;
+    justify-content: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    -ms-flex-align: center;*/
+}
+
+.clients-container{
+
+	padding: 0;
+	//position: relative;
+	/*display: flex;
+    justify-content: center;
+    align-items: center;
+	display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;*/
+
+}
+
+.main-clients{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Safari */
+    transform: translate(-50%, -50%);
+
+    @include to(l){
+		width: 100%;
+		padding-top: 50px;
+	}
+
+	&__icon{
+		color: #fff;
+		text-align: center;
+		font-size: 5em;
+	}
+
+	&__title{
+		color: #fff;
+		text-align: center;
+		@include to(l){
+			font-size: 12pt;
+			padding-top: 10px;
+		}
+
+	}
+
+	&__content{
+		color: #fff;
+		text-align: center;
+	} 
+
+
+}

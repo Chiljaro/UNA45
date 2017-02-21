@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+html(lang="es")
+	head
+		meta(charset='UTF-8', name='viewport', content='width=divice-width, initial-scale=1.0')
+		title UNA45
+		link(rel="stylesheet", href="css/styles.css")
+		link(href="https://file.myfontastic.com/NcyKJN8DWiDSaHTwjzuyx6/icons.css" rel="stylesheet")
+	body
+		header.ed-container
+			.ed-item.menuarriba
+				.ed-container
+					.ed-item.s-30.l-15.imagen 
+						include block-logo
+					.ed-item.s-70.l-65.cross-center.main-end.barra
+						.nav-toggle#main-nav-toggle
+						nav.main-nav#main-nav
+							include block-menu
+					.ed-item.s-0.l-20.cross-center.main-end.barra2
+						nav.second-nav
+							include block-social
+			.ed-item.bannerabajo
+				block banner
+				.ed-item.textobanner
+					block texto
+
+
+		block valores
+
+		block logo-services
+
+		block services
+
+		block about-team
+
+		block about-us
+
+		block our-clients
+
+		block marketing
+
+		block contact
+
+		footer
+			include block-footer
+
+		script(src='js/ed-grid.js')
+		script(src='js/scripts.js')
+		script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js')
+
+	                
+

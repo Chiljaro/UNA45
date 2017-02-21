@@ -1,0 +1,19 @@
+.footer{
+	background: $color2; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(-90deg, $color2, $color1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-90deg,  $color2, $color1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-90deg,  $color2, $color1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg,  $color2, $color1); /* Standard syntax */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    @include stickyFooter;
+
+    p{
+    	text-align: center;
+    	font-family: 'Nunito Sans', sans-serif;
+		color: #fff;
+    }
+}
