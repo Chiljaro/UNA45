@@ -2,8 +2,8 @@
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 18pt;
-	margin-bottom: 5%;
-	margin-top: 0px;
+	margin-bottom: 35px;
+	margin-top: 20px;
 	padding-top: 20px;
 
 }
@@ -22,7 +22,7 @@
 }
 
 .fotito{
-	width: 50%;	
+	width: 60%;	
 	text-align: center;
 	
 
@@ -213,3 +213,22 @@
   to {opacity: 1}
 }
 
+.prev{
+	padding-right: 9px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.next{
+	padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 2px solid;
+}

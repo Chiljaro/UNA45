@@ -140,8 +140,9 @@
 
 .logo3{
 	position: absolute;
-    top: -50%;
+    top: -60%;
     left: 50%;
+    padding-top: 15px;
     transform: translate(-50%, 30%);
     -ms-transform: translate(-50%, 30%); /* IE 9 */
     -webkit-transform: translate(-50%, 30%); /* Safari */
@@ -150,4 +151,17 @@
     @include to(l){
     	display: none;
     }
+}
+
+.reloj3{
+	position: absolute;
+    top: 5%;
+    right: 2%;
+    width: 15%;
+    display: block;
+
+    .reloj33{
+    	opacity: 0.15;
+    }
+
 }
