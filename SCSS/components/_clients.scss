@@ -57,6 +57,10 @@
 		color: #fff;
 		text-align: center;
 		font-size: 15pt;
+
+		@include to(l){
+			font-size: 12pt
+		}
 	} 
 
 

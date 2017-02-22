@@ -48,16 +48,21 @@
 	margin-right: 10%; 
 	font-size: 20pt;
 	font-style: italic;
-	padding-bottom: 3%;
+	padding-bottom: 25px;
 	border-bottom: 3px solid; 
 
 	p{
-		margin: 8px 0px;
+		margin: 25px 0px;
+		@include to(l){
+			margin: 0px 0px;
+		}
 	}
 
 
 	@include to(l){
 		font-size: 10pt;
+		margin: 0px 0px;
+
 	}
 }
 
@@ -80,7 +85,7 @@
 	.puesto{
 		text-align: right;
 		margin: 0;
-		text-transform: capitalize;
+		text-transform: uppercase;
 
 		@include to(l){
 			font-size: 10pt;
@@ -91,6 +96,7 @@
 
 .logo4{
 	text-align: right;
+	margin-top: 50px;
 }
 
 .textos{
@@ -102,6 +108,9 @@
 	font-size: 13pt;
 	font-style: italic;
 	text-align: right;
+	@include to(l){
+			font-size: 8pt;
+		}
 }
 
 .centrado{
@@ -111,6 +120,7 @@
 	background: -o-linear-gradient(-90deg,  $color2, $color1); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(-90deg,  $color2, $color1); /* For Firefox 3.6 to 15 */
     background: linear-gradient(-90deg,  $color2, $color1); /* Standard syntax */
+    padding-bottom: 25px;
 }
 /////////////////slide show
 
@@ -146,6 +156,10 @@
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+
+  @include to(l){
+  	top: 78%;
+  }
 }
 
 /* Position the "next button" to the right */
@@ -213,22 +227,18 @@
   to {opacity: 1}
 }
 
-.prev{
-	padding-right: 9px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 9px;
-    margin-left: 15px;
-    border-radius: 50%;
-    border: 2px solid;
-}
+.fraseella{
+	padding-bottom: 8px;
+	
+	@include to(l){
+			margin: 25px 0px;
+			padding-bottom: 40px;
+		}
 
-.next{
-	padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-right: 15px;
-    border-radius: 50%;
-    border: 2px solid;
+	p{
+		margin: 35px 0px;
+		@include to(l){
+			margin: 0px 0px;
+		}
+	}
 }

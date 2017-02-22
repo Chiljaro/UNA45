@@ -1,3 +1,4 @@
+
 .title1{
 	color: $color1;
 	font-size: 19pt;
@@ -10,6 +11,7 @@
 
 .contenttext{
 	font-size: 14pt;
+	margin-bottom: 50px;
 }
 
 .linea{
@@ -34,7 +36,7 @@
 
 .info-contact{
 	margin-top: 35px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .texto{
@@ -44,7 +46,7 @@
 
 .info-contact-redes{
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 
 	@include to(l){
 		margin: 20px 0;
@@ -55,4 +57,9 @@
 	@include to(l){
 		margin-bottom: 30px
 	}
+}
+
+.correo,
+.telefono{
+	font-size: 13pt;
 }
