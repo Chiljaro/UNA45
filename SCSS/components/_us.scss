@@ -44,15 +44,17 @@
 
 .frase{
 	text-align: right;
-	padding-right: 5%;
-	margin-right: 10%;
-	font-size: 20pt;
-	font-style: italic;
-	padding-bottom: 25px;
-	border-bottom: 3px solid;
+  padding-top: 45px;
+  padding-right: 20px;
+  margin-right: 65px;
+  font-size: 20pt;
+  font-style: italic;
+  padding-bottom: 30px;
+  margin-bottom: 23px;
+  border-bottom: 3px solid;
 
 	p{
-		margin: 5px 0px;
+		margin: 0px 0px;
 		@include to(l){
 			margin: 0px 0px;
 		}
@@ -63,6 +65,25 @@
 		font-size: 10pt;
 		margin: 0px 0px;
 
+	}
+}
+
+
+.fraseella{
+	padding-bottom: 30px;
+	padding-top: 50px;
+	margin-bottom: 30px;
+
+	@include to(l){
+			margin: 25px 0px;
+			padding-bottom: 40px;
+		}
+
+	p{
+		margin: 00px 0px;
+		@include to(l){
+			margin: 0px 0px;
+		}
 	}
 }
 
@@ -225,20 +246,4 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-
-.fraseella{
-	padding-bottom: 8px;
-
-	@include to(l){
-			margin: 25px 0px;
-			padding-bottom: 40px;
-		}
-
-	p{
-		margin: 10px 0px;
-		@include to(l){
-			margin: 0px 0px;
-		}
-	}
 }
