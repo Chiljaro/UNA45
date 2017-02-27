@@ -22,9 +22,9 @@
 }
 
 .fotito{
-	width: 60%;	
+	width: 60%;
 	text-align: center;
-	
+
 
 	@include to(l){
 		width: 85%;
@@ -34,7 +34,7 @@
 .chico{
 	margin-top: 0;
 	font-size: 10pt;
-	
+
 }
 
 .lic{
@@ -45,14 +45,14 @@
 .frase{
 	text-align: right;
 	padding-right: 5%;
-	margin-right: 10%; 
+	margin-right: 10%;
 	font-size: 20pt;
 	font-style: italic;
 	padding-bottom: 25px;
-	border-bottom: 3px solid; 
+	border-bottom: 3px solid;
 
 	p{
-		margin: 25px 0px;
+		margin: 5px 0px;
 		@include to(l){
 			margin: 0px 0px;
 		}
@@ -69,7 +69,7 @@
 .nombre{
 	color: #F1F1F1;
 	padding-right: 5%;
-	margin-right: 10%; 
+	margin-right: 10%;
 
 	.firma{
 		font-weight: bold;
@@ -218,25 +218,25 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 .fraseella{
 	padding-bottom: 8px;
-	
+
 	@include to(l){
 			margin: 25px 0px;
 			padding-bottom: 40px;
 		}
 
 	p{
-		margin: 35px 0px;
+		margin: 10px 0px;
 		@include to(l){
 			margin: 0px 0px;
 		}
