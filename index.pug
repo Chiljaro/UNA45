@@ -2,10 +2,9 @@ extends templates/template
 
 block banner
 	.ed-container.main-about-clients.main-banner
-		.ed-item.clients-container
+		.ed-item.clients-container.img-responsive
 			a(name="nosotros")
-			img(src="img/Link_HOME.jpg", alt="").main-clients__img.fondo
-		.main-clients
+		.main-clients.info
 				.ed-item.s-100.l-100.main-clients__icon
 					.iconoreloj
 						img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
@@ -14,7 +13,7 @@ block banner
 				.ed-item.s-100.l-100.main-clients__content
 					span Somos un equipo creativo, la agencia que diseña
 					span.fuerte  soluciones estratégicas
-					span para hacer tu marca más valiosa.
+					span  para hacer tu marca más valiosa.
 
 block valores
 	.ed-container.main-valores
@@ -121,9 +120,8 @@ block services
 				span Diseño web • Video 3D • Producción y postproducción
 block about-team
 	.ed-container.main-about-team
-		.ed-item.team-container
+		.ed-item.team-container.img-responsive1
 			a(name="nuestro_equipo")
-			img(src="img/Link_Equipo.jpg", alt="").main-team__img.fondo
 		.main-team
 			.ed-item.s-100.l-100.main-team__icon
 				.iconoreloj
@@ -197,9 +195,9 @@ block about-us
 
 block our-clients
 	.ed-container.main-about-clients
-		.ed-item.clients-container
+		.ed-item.clients-container.img-responsive2
 			a(name="nuestros_clientes")
-			img(src="img/Link_Clientes.jpg", alt="").main-clients__img.fondo
+
 		.main-clients
 			.ed-item.s-100.l-100.main-clients__icon
 				.iconoreloj

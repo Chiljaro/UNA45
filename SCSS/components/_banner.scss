@@ -32,7 +32,7 @@
 	&__content{
 		color: #fff;
 		text-align: center;
-	} 
+	}
 
 }
 
@@ -55,4 +55,13 @@
 
 .main-banner{
 	height: 100%;
+}
+
+
+.img-responsive{
+  background-attachment: fixed;
+  background-image: url(../img/Link_HOME.jpg);
+  background-size: cover 150vh;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
