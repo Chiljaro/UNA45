@@ -67,13 +67,11 @@ block valores
 				.desc__content
 					span A los
 					span.fuerte  objetivos
-					| de nuestros clientes <br/> y a los de nuestro equipo de trabajo.
-block logo-services
-	.ed-container.main-logo-services
-		.ed-item.logo2
-			img(src="img/Logo_UNA45_451x150.png", alt="").main-logo-services__img
+					| de nuestros clientes <br/> y a los de nuestro equipo de trabajo.	
 block services
 	.ed-container.main-services
+		.ed-item.logo2.main-logo-services
+			img(src="img/Logo_UNA45_451x150.png", alt="").main-logo-services__img
 		.ed-item.s-100.l-50.servicio
 			p.titulo.que ¿qué hacemos?
 				.contenido-service.ed-item
@@ -216,24 +214,24 @@ block marketing
 			.contenttext
 				p.texto Nuestro equipo ha trabajado con algunas de las marcas más importantes <br/>
 				p.last de la industria farmacéutica en México, tales como:
-	.ed-container.main-marketing
-		.ed-item.marketing-container
-			.gallery
-				.image: a(href="http://www.abbott.com/"): img(src="img/laboratorios/Labs_Abbott.png", alt="").logom
-				.image: a(href="http://www.amgen.com.mx/"): img(src="img/laboratorios/Labs_AMGEN.png", alt="").logom
-				.image: a(href="https://www.astrazeneca.com/country-sites/mexico.html"): img(src="img/laboratorios/Labs_AstraZeneca.png", alt="").logom
-				.image: a(href="http://www.bd.com/mexico/"): img(src="img/laboratorios/Labs_BD.png", alt="").logom
-				.image: a(href="http://www.janssen.com/mexico/"): img(src="img/laboratorios/Labs_Janssen.png", alt="").logom
-				.image: a(href="http://www.roche.com.mx/"): img(src="img/laboratorios/Labs_Roche.png", alt="").logom
-				.image: a(href="https://www.merz.com/"): img(src="img/laboratorios/Labs_MERZ.png", alt="").logom
-				.image: a(href="https://www.boehringer-ingelheim.mx/"): img(src="img/laboratorios/Labs_Boehringer.png", alt="").logom
-				.image: a(href="http://www.pierre-fabre.com/en"): img(src="img/laboratorios/Labs_PierreFabre.png", alt="").logom
-				.image: a(href="http://www.ucb.com.mx/inicio"): img(src="img/laboratorios/Labs_UCB.png", alt="").logom
-				.image: a(href="http://www.tevamexico.com/"): img(src="img/laboratorios/Labs_TEVA.png", alt="").logom
-				.image: a(href="https://www.novartis.com.mx/"): img(src="img/laboratorios/Labs_Novartis.png", alt="").logom
-	.ed-container.main-marketing
-		.ed-item.marketing-container.logo4
-			img(src="img/Logo_UNA45_200x70.png", alt="")
+		.ed-item.main-marketing-logos
+			.marketing-container
+				.gallery
+					.image: img(src="img/laboratorios/Labs_Abbott.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_AMGEN.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_AstraZeneca.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_BD.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_Janssen.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_Roche.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_MERZ.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_Boehringer.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_PierreFabre.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_UCB.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_TEVA.png", alt="").logom
+					.image: img(src="img/laboratorios/Labs_Novartis.png", alt="").logom
+		.ed-item.main-marketing-logo
+			.marketing-container.logo4
+				img(src="img/Logo_UNA45_200x70.png", alt="")
 block contact
 	.ed-container.main-contact
 		a(name="contacto")
@@ -243,23 +241,23 @@ block contact
 				p.fuerte.linea El tiempo es muy importante para nosotros. <br/>
 				p.linea1 Te invitamos a ponerte en contacto y así poder construir juntos <br/>
 				p.linea2 la mejor experiencia creativa para tu marca.
-	.ed-container.info-contact
-		.ed-item.image.s-50.l-50
-			.logo5
-				img(src="img/Logo_UNA45_300x100.png", alt="")
-		.ed-item.image.s-50.l-50
-			.logo6
-				img(src="img/TextNombre_295x50.png", alt="")
-			p.correo.texto: a(href="mailto:valeri@una45.mx") valeri@una45.mx
-			p.telefono.texto 55.7845.6149
-	.ed-container.info-contact-redes
-		.ed-item.final.s-100.l-25
-			span Síguenos en nuestras redes sociales:
-		.ed-item.final.s-50.l-25
-			a(href="https://www.facebook.com/UNA45-1200782933370620/").second-menu__link: img(src="img/Social_Facebook_100x100.png", width=30 height=30, alt="").social
-			spna.fuerte   /UNA:45
-		.ed-item.final.s-50.l-25
-			a(href="https://twitter.com/una45_mx").second-menu__link: img(src="img/Social_Twitter_100x100.png", width=30 height=30, alt="").social
-			span.fuerte   @UNA45_MX
-		.ed-item.final.s-100.l-25
-			a(href="http://www.una45.mx/").second-menu__link: img(src="img/Web_UNA45_300x100.png", width=120 height=120, alt="").social
+		.ed-container.info-contact
+			.ed-item.image.s-50.l-50
+				.logo5
+					img(src="img/Logo_UNA45_300x100.png", alt="")
+			.ed-item.image.s-50.l-50
+				.logo6
+					img(src="img/TextNombre_295x50.png", alt="")
+				p.correo.texto: a(href="mailto:valeri@una45.mx") valeri@una45.mx
+				p.telefono.texto 55.7845.6149
+		.ed-container.info-contact-redes
+			.ed-item.final.s-100.l-25
+				span Síguenos en nuestras redes sociales:
+			.ed-item.final.s-50.l-25
+				a(href="https://www.facebook.com/UNA45-1200782933370620/").second-menu__link: img(src="img/Social_Facebook_100x100.png", width=30 height=30, alt="").social
+				spna.fuerte   /UNA:45
+			.ed-item.final.s-50.l-25
+				a(href="https://twitter.com/una45_mx").second-menu__link: img(src="img/Social_Twitter_100x100.png", width=30 height=30, alt="").social
+				span.fuerte   @UNA45_MX
+			.ed-item.final.s-100.l-25
+				a(href="http://www.una45.mx/").second-menu__link: img(src="img/Web_UNA45_300x100.png", width=120 height=120, alt="").social

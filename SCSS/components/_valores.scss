@@ -1,3 +1,10 @@
+.main-valores{
+	height: 100vh;
+	@include to(l){
+		height: auto;
+	}
+}
+
 .mision{
 	background-color: $color1;
 	display: flex;

@@ -1,4 +1,10 @@
+.main-contact{
 
+	height: 100vh;
+	@include to(l){
+		height: auto;
+	}
+}
 .title1{
 	color: $color1;
 	font-size: 19pt;
@@ -12,6 +18,10 @@
 .contenttext{
 	font-size: 14pt;
 	margin-bottom: 50px;
+
+	@include to(l){
+		margin-bottom: 0px;
+	}
 }
 
 .linea{
@@ -37,6 +47,10 @@
 .info-contact{
 	margin-top: 35px;
     margin-bottom: 100px;
+
+    @include to(l){
+    	margin-bottom: 15px;
+    }
 }
 
 .texto{

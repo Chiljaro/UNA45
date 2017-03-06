@@ -1,10 +1,16 @@
+.main-about-us{
+	height: 100vh;
+	@include to(xl){
+		height: auto;
+	}
+}
+
 .title{
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 18pt;
-	margin-bottom: 35px;
-	margin-top: 20px;
-	padding-top: 20px;
+	padding-bottom: 35px;
+	padding-top: 40px;
 
 }
 
@@ -151,7 +157,7 @@
 .slideshow-container {
   //max-width: 1000px;
 	position: relative;
-  	margin: auto;
+  	//margin: auto;
   	width: 100%;
   	background: $color2;
   	background: -webkit-linear-gradient(-90deg, $color2, $color1); /* For Safari 5.1 to 6.0 */

@@ -1,15 +1,28 @@
-.main-logo-services{
-	
-	.logo2{
-		text-align: center;
-		margin-top: 60px;
-    	margin-bottom: 15px
+.main-services {
+	height: 100vh;
+	@include to(xl){
+		height: auto;
 	}
 }
 
-.servicio{
+
+.main-logo-services {
 	
-	.titulo{
+	text-align: center;
+	margin-top: 30px;
+    margin-bottom: 15px;
+
+	.main-logo-services__img {
+	
+		@include to(m){
+			width: 25%;
+		}
+	}
+}
+
+.servicio {
+	
+	.titulo {
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 18pt;

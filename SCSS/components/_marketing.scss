@@ -1,3 +1,10 @@
+.main-marketing{
+	height: 100vh;
+	@include to(xl){
+		height: auto;
+	}
+}
+
 .duda{
 	color: $color2;
 	text-align: center;
