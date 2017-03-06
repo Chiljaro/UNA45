@@ -1,6 +1,6 @@
 .main-services {
 	height: 100vh;
-	@include to(xl){
+	@include to(l){
 		height: auto;
 	}
 }
@@ -14,7 +14,7 @@
 
 	.main-logo-services__img {
 	
-		@include to(m){
+		@include to(xl){
 			width: 25%;
 		}
 	}

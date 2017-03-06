@@ -1,8 +1,6 @@
 .main-about-us{
 	height: 100vh;
-	@include to(xl){
-		height: auto;
-	}
+	
 }
 
 .title{
@@ -11,6 +9,11 @@
 	font-size: 18pt;
 	padding-bottom: 35px;
 	padding-top: 40px;
+
+	@include to(xl){
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
 
 }
 
