@@ -1,0 +1,44 @@
+#animatedtitle{
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-delay: .8s;
+	animation-delay: .8s;
+	opacity: 0;
+}
+
+#animateteam,
+#animateclients {
+	opacity: 0;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-delay: .8s;
+	animation-delay: .8s;
+}
+
+
+#mision-contenido{
+	opacity: 0;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-delay: .8s;
+	animation-delay: .8s;
+
+}
+
+#vision-contenido {
+	opacity: 0;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-delay: .8s;
+	animation-delay: .8s;
+
+}
+
+#valor-contenido{
+	opacity: 0;
+	-webkit-animation-duration: 2.5s;
+	animation-duration: 2.5s;
+	-webkit-animation-delay: .8s;
+	animation-delay: .8s;
+
+}

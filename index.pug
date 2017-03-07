@@ -5,6 +5,7 @@ block banner
 		.ed-item.clients-container.img-responsive
 			a(name="nosotros")
 		.main-clients.info
+			#animatedtitle
 				.ed-item.s-100.l-100.main-clients__icon
 					.iconoreloj
 						img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
@@ -18,7 +19,7 @@ block banner
 block valores
 	.ed-container.main-valores
 		.ed-item.s-100.l-50.mision
-			.mision-contenido
+			.mision-contenido#mision-contenido
 				.mision__titulo
 					p misión
 				.mision__content
@@ -26,7 +27,7 @@ block valores
 					span para aumentar el valor de las marcas y del equipo que se <br/>
 					span encuentra detrás de ellas.
 		.ed-item.s-100.l-50.vision
-			.vision-contenido
+			.vision-contenido#vision-contenido
 				.vision__titulo
 					p visión
 				.vision__content Demostraremos con nuestras ideas <br/>
@@ -34,12 +35,12 @@ block valores
 					span genera crecimiento y bienestar para todos.
 		.ed-item.s-100.l-100.valor
 			.ed-item.l-100
-				.valor-contenido
+				.valor-contenido#valor-contenido
 					.valor__titulo
 						p valores
 					.valor__content
 						span.fuerte Cumplir, innovar y servir con honestidad
-				.logo3
+				.logo3.scrollflow.-slide-top.-opacity
 					img(src="img/Logo_UNA45_300x100.png", alt="")
 				.reloj3
 					img(src="img/RelojBlanco_UNA45_250x250.png", alt="").reloj33
@@ -121,18 +122,19 @@ block about-team
 		.ed-item.team-container.img-responsive1
 			a(name="nuestro_equipo")
 		.main-team
-			.ed-item.s-100.l-100.main-team__icon
-				.iconoreloj
-					img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
-			.ed-item.s-100.l-100.main-team__title
-				p.titulo nuestro equipo
-			.ed-item.s-100.l-100.main-team__content
-				span Nos conformamos por un grupo de
-				span.fuerte jóvenes profesionales
-				span  cuyo trabajo en equipo y experiencia
-				span  son una fórmula probada para ofrecer soluciones creativas,
-				span pues
-				span.fuerte  somos apasionados de lo que hacemos y la forma en que lo hacemos.
+			#animateteam
+				.ed-item.s-100.l-100.main-team__icon
+					.iconoreloj
+						img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
+				.ed-item.s-100.l-100.main-team__title
+					p.titulo nuestro equipo
+				.ed-item.s-100.l-100.main-team__content
+					span Nos conformamos por un grupo de
+					span.fuerte  jóvenes profesionales
+					span  cuyo trabajo en equipo y experiencia
+					span  son una fórmula probada para ofrecer soluciones creativas,
+					span pues
+					span.fuerte  somos apasionados de lo que hacemos y la forma en que lo hacemos.
 
 block about-us
 	.ed-container.main-about-us
@@ -197,15 +199,16 @@ block our-clients
 			a(name="nuestros_clientes")
 
 		.main-clients
-			.ed-item.s-100.l-100.main-clients__icon
-				.iconoreloj
-					img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
-			.ed-item.s-100.l-100.main-clients__title
-				p.titulo nuestros clientes
-			.ed-item.s-100.l-100.main-clients__content
-				span La parte más importante para nosotros, pues ellos
-				span.fuerte  nos otorgan su confianza
-				span  y son nuestros cómplices y amigos en la aventura publicitaria de una marca.
+			#animateclients
+				.ed-item.s-100.l-100.main-clients__icon
+					.iconoreloj
+						img(src="img/RelojBlanco_UNA45_60x60.png", alt="")
+				.ed-item.s-100.l-100.main-clients__title
+					p.titulo nuestros clientes
+				.ed-item.s-100.l-100.main-clients__content
+					span La parte más importante para nosotros, pues ellos
+					span.fuerte  nos otorgan su confianza
+					span  y son nuestros cómplices y amigos en la aventura publicitaria de una marca.
 
 block marketing
 	.ed-container.main-marketing
