@@ -10,6 +10,13 @@
 
 }
 
+.listamenu{
+
+	@include to(l){
+		margin-top: 266px;
+	}
+}
+
 
 .main-menu, 
 .second-menu{
@@ -46,24 +53,32 @@
 }
 
 
-.main-menu, 
-.second-menu{
+.main-menu{
 	@include edMenu(l);
 }
 
-.main-nav,
-.second-menu{
+.second-menu {
+	@include edMenu(s);
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+} 
+
+.main-nav{
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.8);
 
 	@include edNav('right', l);
 	
+	@include to(l){
+		align-self: stretch;
+	}
 
 }
 
-.nav-toggle{
+.nav-toggle {
 	@include navToggle(20px, $color1);
-	@include hideFrom(l);
+	@include hideFrom(s);
+	
 }
 
 .imagen{

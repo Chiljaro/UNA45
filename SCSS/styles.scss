@@ -23,12 +23,6 @@ body{
     width: 100%;
 }
 
-.iconoreloj{
-
-	@include to(l){
-		display: none;
-	}
-}
 
 
 @import "components/header";

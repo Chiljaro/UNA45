@@ -1,5 +1,6 @@
 .main-services {
 	height: 100vh;
+	z-index: 0;
 	@include to(l){
 		height: auto;
 	}
@@ -13,9 +14,15 @@
     margin-bottom: 15px;
 
 	.main-logo-services__img {
-	
+		
+		width: 30%;
+		
 		@include to(xl){
-			width: 25%;
+			width: 50%;
+		}
+
+		@include fromTo(m,l){
+			width: 30%;
 		}
 	}
 }
@@ -58,23 +65,20 @@
 }
 
 
-.contenido-service{
-	display: flex;
-	align-items: center;
+.contenido-service {
 	padding-left: 10%;
 	margin-bottom: 25px;
 
 	.texto{
 		border-left: 3px solid $color1;
-		margin-left: 6%;
-    	padding-left: 6%;
-
     	.contenido{
     		font-size: 13pt;
     	}
 	}
 }
 
+
+///////////contedino de flecha
 .contenido-service2{
 	display: flex;
 	align-items: center;
@@ -169,12 +173,24 @@
 }
 
 
+.iconoservice {
+	@include fromTo(m,l){
+		text-align: right;
+	}  
+}
+
 .iconov{
 	width: 100px;
 	height: 100px;
 	max-width: none;
-	max-height: none;  
+	max-height: none;
+
+	
 }
+
+
+
+
 
 .flecha{
 	height: 100%;
@@ -207,33 +223,16 @@
 
 
 
-
-
-
-
-.degra{
-	width: 70%;
-
-	@include to(l){
-
-		width: 80%;
-	}
+.creativo {
+	width: 41%
 }
 
-.medico{
-	
-	@include to(l){
-		width: 100%;
-	}
+.medico {
+	width: 75%
 }
 
-.diseno{
-	   width: 52%;
-
-	   @include to(l){
-
-		width: 80%;
-	}
+.diseno {
+	width: 32%
 }
 
 .pie{
@@ -266,7 +265,8 @@
 }
 
 .iconof{
-
+	
+	text-align: center;
 	@include to(l){
 		width: 30%;
 	}

@@ -29,6 +29,10 @@
  	@include grid('.image',4 );
 
  	@include to(l){
+		@include grid('.image',3 );
+	}
+
+	@include to(m){
 		@include grid('.image',2 );
 	}
 
@@ -36,23 +40,10 @@
     justify-content: center;
     align-items: center;
 
-    .image{
+    .image {
     	display: flex;
-			justify-content: center;
-			align-items: center;
-			padding: 10px 0px;
-
-			.logom{
-				filter: grayscale(100%);
-				-webkit-filter: grayscale(100%);
-				transition:filter .2s;
-				-webkit-transition:-webkit-filter .2s;
-
-				&:hover {
-					filter: grayscale(0);
-					-webkit-filter: grayscale(0);
-				}
-			}
-
+		justify-content: center;
+		align-items: center;
+		padding: 10px 0px;
     }
 }

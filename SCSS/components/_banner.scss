@@ -47,10 +47,6 @@
     color: #fff;
     border: 2px solid #fff;
 
-    @include to(l){
-		font-size: 10pt;
-    	padding: 0;
-    }
 }
 
 .main-banner{
