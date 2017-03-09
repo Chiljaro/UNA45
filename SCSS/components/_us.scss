@@ -8,13 +8,17 @@
 	text-align: center;
 	font-size: 18pt;
 	padding-bottom: 35px;
-	padding-top: 40px;
+    padding-top: 30px;
 
 	@include to(xl){
 		padding-top: 0px;
 		padding-bottom: 0px;
 	}
 
+}
+
+.imgfra {
+	padding-top: 40px;
 }
 
 .foto{
@@ -126,7 +130,11 @@
 
 .logo4{
 	text-align: right;
-	margin-top: 50px;
+	margin-top: 80px;
+
+	@include to(xl){
+			margin-top: 40px;
+		}
 }
 
 .textos{

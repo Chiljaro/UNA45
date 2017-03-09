@@ -1,8 +1,9 @@
 .main-marketing{
 	height: 100vh;
-	@include to(xl){
+	
+	@include to(l){
 		height: auto;
-	}
+	}	
 }
 
 .duda{
@@ -10,6 +11,10 @@
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 18pt;
+	margin-top: 50px;
+	margin-bottom: 30px;
+
+
 }
 
 .contenttext{
@@ -41,9 +46,19 @@
     align-items: center;
 
     .image {
+
     	display: flex;
 		justify-content: center;
 		align-items: center;
-		padding: 10px 0px;
+		padding: 20px 0px;
+
+		@include to(xl) {
+			padding: 5px 0px;
+		}
+
     }
+}
+
+.logomkt {
+	text-align: right;
 }
