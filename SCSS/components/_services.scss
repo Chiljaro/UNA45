@@ -1,6 +1,9 @@
 .main-services {
 	height: 100vh;
 	z-index: 0;
+	@include to(l){
+		height: auto;
+	}
 	
 }
 
@@ -15,8 +18,12 @@
 		
 		width: 30%;
 		
-		@include to(xl){
-			width: 22%;
+		@include from(l){
+			width: 40%;
+		}
+		
+		@include to(l){
+			width: 50%;
 		}
 
 		@include fromTo(m,l){
