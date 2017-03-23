@@ -22,12 +22,16 @@
 }
 
 .img-responsive2{
-  background-attachment: fixed;
-  background-image: url(../img/Link_Clientes.jpg);
-  background-size: cover;
-  height: 100vh;
+  	background-attachment: fixed;
+  	background-image: url(../img/Link_Clientes.jpg);
+  	background-size: cover;
+  	height: 100vh;
 	width: 100%;
-  background-repeat: no-repeat;
+  	background-repeat: no-repeat;
+
+  	@include fromTo($hmin,$hmax){
+		height: 110vh;
+	}
 }
 
 .main-clients{

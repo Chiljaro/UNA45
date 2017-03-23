@@ -1,5 +1,17 @@
 .main-about-us{
 	height: 100vh;
+
+	@include fromTo(701px,$hmax){
+		height: 140vh;
+	}
+	
+	@include fromTo(601px,700px){
+		height: 150vh;
+	}
+
+	@include fromTo($hmin,600px){
+		height: 165vh;
+	}
 	
 }
 
@@ -19,6 +31,10 @@
 
 .imgfra {
 	padding-top: 40px;
+
+	@include fromTo($hmin,$hmax){
+		padding-top: 10px;
+	}
 }
 
 .foto{
@@ -38,9 +54,12 @@
 	width: 60%;
 	text-align: center;
 
-
 	@include to(l){
 		width: 85%;
+	}
+
+	@include fromTo($hmin,$hmax){
+		width: 70%;
 	}
 }
 
@@ -133,8 +152,12 @@
 	margin-top: 80px;
 
 	@include to(xl){
-			margin-top: 40px;
-		}
+		margin-top: 40px;
+	}
+
+	@include fromTo($hmin,$hmax){
+		margin-top: 5px;
+	}
 }
 
 .textos{
