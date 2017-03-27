@@ -12,6 +12,10 @@
 	@include fromTo($hmin,600px){
 		height: 165vh;
 	}
+
+	@include to(350px){
+		height: 130vh;
+	}
 	
 }
 
