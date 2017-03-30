@@ -25,6 +25,11 @@ body{
     width: 100%;
 }
 
+@include to(m){
+	br {
+		display: none;
+	}
+}
 
 
 @import "components/header";
