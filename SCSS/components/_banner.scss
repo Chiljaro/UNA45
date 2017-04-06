@@ -65,21 +65,13 @@
   	background-repeat: no-repeat;
   	overflow: hidden;
 
-	@include respond-to(iphone){
-		background-attachment: scroll;
-	}
-	@include respond-to(iphone-landscape){
-		background-attachment: scroll;
-	}
-	@include respond-to(iphone-portrait){
-		background-attachment: scroll;	
-	}
-
 	@include fromTo($hmin,$hmax){
 		height: 110vh;
 	}
 
-
+	@include to(m){
+		background-attachment: scroll;	
+	}
 }
 
 body

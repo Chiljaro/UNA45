@@ -19,7 +19,7 @@
 		width: 30%;
 		
 		@include from(l){
-			width: 40%;
+			width: 25%;
 		}
 		
 		@include to(l){
@@ -152,7 +152,7 @@
 		@include to(l){
 			width: 80%;
 			position: relative;
-			left: 50%;
+			left: 47%;
 			-ms-transform: translate(-60%);
 			-webkit-transform: translate(-60%);
 			transform: translate(-60%);
@@ -168,6 +168,18 @@
 	    	position: absolute;
 		    top: 10%;
 		    right: -10%;
+
+		    @include to(l){
+		    	top: 25%;
+    			right: -5%;
+		    }
+
+		     @include to(m){
+		    	top: 9%;
+    			right: -12%;
+		    }
+
+		    
 	    }
 
    	}
@@ -220,7 +232,7 @@
 
 	.ultimo1{
 		@include to(l){
-			margin-top: 30px;
+			margin-top: 50px;
 		}
 
 	}
@@ -262,11 +274,28 @@
 }
 
 .unomas{
-	margin-right: 10px; 
+	margin-right: 10px;
+	
+	@include to (l){
+		left: 70px;
+	}
+
+	@include to (m){
+		left: 0px;
+	}
+
 }
 
 .dosmas{
-	margin-left: 10px; 
+	margin-left: 10px;
+
+	@include to (l){
+		left: -70px;
+	}
+
+	@include to (m){
+		left: 0px;
+	} 
 }
 
 .iconof{

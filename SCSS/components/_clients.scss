@@ -31,14 +31,8 @@
 	width: 100%;
   	background-repeat: no-repeat;
   	overflow: hidden;
-
-	@include respond-to(iphone){
-		background-attachment: scroll;
-	}
-	@include respond-to(iphone-landscape){
-		background-attachment: scroll;
-	}
-	@include respond-to(iphone-portrait){
+	
+	@include to(m){
 		background-attachment: scroll;	
 	}
 
