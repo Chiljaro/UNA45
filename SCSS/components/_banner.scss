@@ -67,6 +67,7 @@
 
 	@include fromTo($hmin,$hmax){
 		height: 110vh;
+		background-attachment: scroll;	
 	}
 
 	@include to(m){
