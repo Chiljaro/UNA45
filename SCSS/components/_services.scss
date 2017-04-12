@@ -19,7 +19,7 @@
 		width: 30%;
 		
 		@include from(l){
-			width: 25%;
+			width: 20%;
 		}
 		
 		@include to(l){
@@ -253,18 +253,15 @@
 }
 
 .pie{
-
+	
 	.inferior{
 		
-		margin-left: 220px;
 		margin-bottom: 20px;
+	    margin-top: 20px;
+	    text-align: center;
+	    justify-content: center;
 
-		@include to(m){
-			margin-left: 0px;
-			margin-bottom: 20px;
-			margin-top: 20px;	
-			text-align: center;
-		}
+		
 		
 		.intro{
 			margin: 0;
